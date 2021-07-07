@@ -4,7 +4,7 @@
     "description": "This project is a \"files and folders\" management for Windows OS.  We can categorize, tag and search files and folders.",
     "main": "index.js",
     "scripts": {
-        "server": "node index.js",
+        "server": "npm start --prefix server",
         "client": "npm start --prefix client",
         "dev": "concurrently \"npm run server\" \"npm run client\""
     },

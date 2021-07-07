@@ -1,0 +1,19 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.9"
+    },
+    "dependencies": {
+        "glob": "^7.1.7"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
